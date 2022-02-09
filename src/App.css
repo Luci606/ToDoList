@@ -1,0 +1,65 @@
+body {
+    background-image: url(bulba.png);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+}
+#todo-list {
+    width: 500px;
+    margin: 60px auto;
+}
+form, .todo {
+    border: 1px solid grey;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+form {
+    margin-bottom: 10px;
+    background-color: #3e7136;
+}
+form input {
+    padding: 4px;
+    margin-right: 16px;
+}
+button {
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #B74555;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ad2f1c;
+}
+.todo-text input {
+    padding: 4px;
+}
+.todo-text {
+    font-size: 24px;
+    margin-bottom: 16px;
+    align-items: center;
+  }
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.toDoList {
+    background-color: #B74555;
+    float: left;
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 2px;
+}
+.btnDel {
+float: right;
+}
+span {
+  font-size: 25px;
+}
